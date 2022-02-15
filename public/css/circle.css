@@ -1,0 +1,78 @@
+
+.c-progress {
+    width: 100px;
+    height: 100px;
+    background: none;
+    position: relative;
+  }
+  
+  .c-progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .c-progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .c-progress .c-progress-left {
+    left: 0;
+  }
+  
+  .c-progress .c-progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  
+  .c-progress .c-progress-left .c-progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  
+  .c-progress .c-progress-right {
+    right: 0;
+  }
+  
+  .c-progress .c-progress-right .c-progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+  }
+  
+  .c-progress .c-progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.precent{
+  color: #eee;
+  font-weight: bold;
+  font-size: 24px;
+}
+.border-warning{
+  border-color: #007bff!important;
+}

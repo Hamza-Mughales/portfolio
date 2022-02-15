@@ -1,0 +1,51 @@
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu{
+    position: absolute;
+    background: #272c33;
+    color: #fff;
+    display: table-cell;
+    height: 100vh;
+    min-height: 100%;
+    padding: 50px 25px 0;
+    vertical-align: top;
+    width: 280px;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+    text-align: center;
+}
+.navbar-nav li {
+    margin: 10px 0;
+    background-color: black;
+    text-align: center;
+    padding: 10px ;
+}
+.navbar-nav a {
+    width: 100%;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.dash-content{
+    margin-left: 290px;
+    padding-top: 100px;
+    padding-left: 50px;
+    
+}
+textarea{
+    min-height: 200px;
+}
+a {
+    color: #fff;
+}
+a:hover{
+    color: #ddd;
+}
+.logout{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
